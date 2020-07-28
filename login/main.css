@@ -1,0 +1,110 @@
+html{
+    font-family:    Quicksand-VariableFont_wght;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ECEDF9;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: "Quicksand-VariableFont_wght";
+    src: url("./assets/fonts/Quicksand-VariableFont_wght.ttf");
+}
+.center-container{
+
+    width: 30vw;
+    height: 85vh;
+    background-color:  white;
+    border-radius: .6em;
+    -webkit-box-shadow: -5px 6px 8px 2px rgba(153,153,153,1), 6px 6px 8px 2px rgba(153,153,153,1);
+    -moz-box-shadow: -5px 6px 8px 2px rgba(153,153,153,1), 6px 6px 8px 2px rgba(153,153,153,1);
+    box-shadow: -5px 6px 8px 2px rgba(153,153,153,.50), 6px 6px 8px 2px rgba(153,153,153,.50), -1px -3px 8px 2px rgba(153,153,153,.50);
+
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+hr{
+    position: relative;
+    top: -1em;
+    width: 85%;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.correo{
+    margin-top: 1em;
+}
+.contraseña{
+    margin-top: 1em;
+}
+.button{
+    margin-top: 2em;
+}
+.correo-login{
+    border:  none;
+    background   : rgba(150,150,150,.2);
+    border-radius: 5px;
+    outline      : none;
+    height: 2.2em; /* for IE */
+    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
+    width: 15em;
+
+}
+.contra-login{
+    border:  none;
+    background   : rgba(150,150,150,.2);
+    border-radius: 5px;
+    outline      : none;
+    height: 2.2em; /* for IE */
+    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
+    width: 15em;
+}
+.button-login{
+    position: relative;
+    left: 4em;
+    border:none;
+    border-radius: 5px;
+    background   : #3C6AB4;
+    color: white;
+    outline: none;
+    cursor       : pointer;
+    height: 2.3em;
+    width: 7em;
+}
+.img-login{
+    position: relative;
+    left: 8.7em;
+    top: -.6em;
+
+
+    width: 150px;
+    height: 125px;
+}
+.image{
+    width: 150px;
+    height: 125px;
+}
+.olvidar{
+    text-decoration: none;
+    color: dimgray;
+
+}
+.seccion-olvidar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
