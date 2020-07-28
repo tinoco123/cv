@@ -12,7 +12,7 @@ button.forEach(function (button) {
         container.classList.add("animate__fadeOutUp");
 
         setTimeout(function () {
-            location.href = "/topE-learningPlatforms/index.html";
+            location.href = "../index.html";
         }, 700);
         return false;
     });
