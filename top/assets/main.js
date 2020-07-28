@@ -12,7 +12,7 @@ button.forEach(function (button) {
         container.classList.add("animate__fadeOutUp");
 
         setTimeout(function () {
-            location.href = "../index.html";
+            location.href = "/top";
         }, 700);
         return false;
     });
